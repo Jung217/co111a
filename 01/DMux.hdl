@@ -13,6 +13,15 @@ CHIP DMux {
     IN in, sel;
     OUT a, b;
 
+    //PARTS:
+    //Nand(a=sel, b=sel, out=Nandsel);
+    //Nand(a=in, b=Nandsel, out=inNNandsel);
+    //Nand(a=in, b=sel, out=inNandsel);
+    //Nand(a=inNNandsel, b=inNNandsel, out=a);
+    //Nand(a=inNandsel, b=inNandsel, out=b);
+
     PARTS:
-    // Put your code here:
+    Not(in=sel, out=Nsel);
+    And(a=in, b=Nsel, out=a);
+    And(a=in, b=sel, out=b);
 }
