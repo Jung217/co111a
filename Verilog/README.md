@@ -10,7 +10,9 @@
 
 1. wire作用??? (Mux4Way16,Mux8Way16,FullAdder...)
 2. 不懂為何 Mux4Way16 & Mux8Way16 要 wire (沒有vvp好像一樣，但有Warning)
-3. 密密麻麻看得昏天暗地
+3. RAM的不同寫法
+4. CPU梳理
+6. 密密麻麻看得昏天暗地
 
 ## 心得:
 
