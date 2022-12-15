@@ -21,6 +21,7 @@
 ## 備註及參考:
 
 [Verilog Operators](https://www.chipverify.com/verilog/verilog-operators)
+
 [DFF](https://www.javatpoint.com/verilog-d-flip-flop) 
 
 邏輯閘Verilog程式均改寫自原本1-5章
